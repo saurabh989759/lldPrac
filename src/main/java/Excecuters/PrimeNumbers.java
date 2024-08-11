@@ -7,6 +7,6 @@ public class PrimeNumbers implements Runnable  {
     }
     @Override
     public void run() {
-       System.out.println("Printing" + noToPrint + " in thiread : - " + Thread.currentThread().getName());
+       System.out.println("Printing" + " " + noToPrint + " in thiread : - " + Thread.currentThread().getName());
     }
 }

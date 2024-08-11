@@ -8,8 +8,9 @@ public class Client {
 
         ExecutorService ex = Executors.newCachedThreadPool();
 
-        for (int i = 0; i < 10; i++) {
-            ex
+        for(int i = 0; i < 10; i++) {
+           PrimeNumbers t = new PrimeNumbers(i);
+           ex.execute(t);
         }
     }
 }
