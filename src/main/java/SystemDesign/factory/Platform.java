@@ -1,2 +1,8 @@
-package SystemDesign.factory;public enum Platform {
+package SystemDesign.factory;
+
+public enum Platform {
+    IOS,
+    Windows,
+    Android,
+    Mac,
 }

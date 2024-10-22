@@ -1,2 +1,4 @@
-package SystemDesign.factory;public class UIFactoryFactory {
+package SystemDesign.factory;
+
+public class UIFactoryFactory {
 }
