@@ -1,5 +1,5 @@
 package SystemDesign.BookMyShow.models;
 
 
-public class Booking {
+public class Booking extends  {
 }
