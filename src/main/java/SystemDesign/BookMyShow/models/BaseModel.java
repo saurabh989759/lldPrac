@@ -11,7 +11,7 @@ import java.util.Date;
 public class BaseModel {
 
 
-    private Long id;
+    private Long idx;
     private Date createdAt ;
     private Date lastModifiedAt ;
 }
