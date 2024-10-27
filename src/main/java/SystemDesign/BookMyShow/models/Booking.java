@@ -6,4 +6,6 @@ public class Booking extends  BaseModel {
     private int userId;
     private String bookingDate;
     private String bookingTime;
+    private String bookingStatus;
+
 }
