@@ -1,4 +1,15 @@
 package SystemDesign.BookMyShow.models;
 
-public class Theatre {
+import jakarta.persistence.Entity;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Entity(name = "theatres")
+public class Theatre extends BaseModel{
+
+    private String name;
+    private String address ;
+
 }

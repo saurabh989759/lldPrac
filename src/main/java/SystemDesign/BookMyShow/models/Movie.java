@@ -1,4 +1,6 @@
 package SystemDesign.BookMyShow.models;
 
-public class Movie {
+import java.awt.print.Book;
+
+public class Movie extends Book {
 }
