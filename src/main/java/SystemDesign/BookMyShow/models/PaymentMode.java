@@ -1,4 +1,8 @@
 package SystemDesign.BookMyShow.models;
 
-public class PaymentMode {
+public enum PaymentMode {
+    UPI,
+    CREDIT_CARD,
+    DEBIT_CARD,
+    NET_BANKING,
 }
