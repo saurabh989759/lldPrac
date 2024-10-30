@@ -1,4 +1,4 @@
 package SystemDesign.BookMyShow.models;
 
-public class User {
+public class User extends BaseModel{
 }
