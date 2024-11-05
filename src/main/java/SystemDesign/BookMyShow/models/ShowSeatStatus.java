@@ -1,4 +1,7 @@
 package SystemDesign.BookMyShow.models;
 
-public class ShowSeatStatus {
+public enum ShowSeatStatus {
+    AVALIABLE,
+    BOOKED,
+    BLOCKED,
 }
