@@ -46,7 +46,7 @@ public class methodReference {
         // When lambda2.display("hello") is called, it invokes MethodReference.toUpperCase("hello").
 
         // Demonstrating lambda expressions for comparison
-        MiLambda lambda3 = (str) -> System.out.println("Custom message: " + str);
+        MiLambda lambda3 = (str ) -> System.out.println("Custom message: " + str);
         lambda3.display("Using a lambda expression!");
         // Explanation: This demonstrates using a lambda expression directly instead of a method reference.
 
